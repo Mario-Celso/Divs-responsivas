@@ -1,0 +1,90 @@
+* {
+  font-family: 'Dosis', sans-serif;
+}
+@font-face {
+  font-family: 'Dosis Book';
+  src: url('../fontes/Dosis-Book.ttf')  format('woff');
+}
+
+.leitura{
+  min-height: 500px;
+}
+.estudo{
+  min-height: 250px;
+
+}
+.imgLeitura{
+  background: url("../imagens/foto1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.imgLer{
+  background: url("../imagens/foto2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.imgRuivinha{
+  background: url("../imagens/foto3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.titulo{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.texto{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Dosis Book' !important;
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: justify;
+  font-weight: bold;
+}
+
+@media (min-width:992px){
+
+  .noPadding{
+   padding-left: 0px !important;
+  }
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+  .leitura {
+    min-height: 250px;
+  }
+  .noPadding{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+@media (max-width:767px){
+  .leitura {
+    min-height: 250px;
+  }
+  .noPadding{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+.navbar{
+    margin-top:5px;
+    
+    
+    
+    
+    
+}
